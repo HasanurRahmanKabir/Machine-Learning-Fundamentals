@@ -4,7 +4,7 @@ def isPalindrome(s):
         return True
     
     if s[0] != s[-1]:
-        return True
+        return False
     
     return isPalindrome(s[1:-1])
 
